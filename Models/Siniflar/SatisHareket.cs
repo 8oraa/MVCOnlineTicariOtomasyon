@@ -18,10 +18,10 @@ namespace MVCOnlineTicariOtomasyon.Models.Siniflar
         public decimal Fiyat { get; set; }
         public decimal ToplamTutar { get; set; }
 
-        public ICollection<Urun> Uruns { get; set; }
+        public Urun Urun { get; set; }
 
-        public ICollection<Cariler> Carilers { get; set; }
+        public Cariler Cariler { get; set; }
 
-        public ICollection<Personel> personels { get; set; }
+        public Personel Personel { get; set; }
     }
 }
